@@ -1,6 +1,9 @@
 # DevelopingDataProducts
 This is my course assignment for Developing Data Products.  It is a study of ACA Health Insurance in Florida.
 
+My app is at   https://patg.shinyapps.io/ACAproject/
+and my slides are at   rpubs.com/pgarrabrant/210307
+
 All the data for this assignment came from the cms.gov website.
 They publish Public Use Files and the one that interested me was called, 
 https://data.healthcare.gov/dataset/2016-QHP-Landscape-Individual-Market-Medical/v7sn-c66v/data
