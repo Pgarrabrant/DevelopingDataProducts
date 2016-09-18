@@ -1,0 +1,55 @@
+===
+ACA Project Slides (Affordable Care Act in Florida By County)
+
+Author: Patrick Garrabrant, CLU, HCP
+
+Date: 9/18/2016
+
+
+
+
+========================================================
+
+Much has been said about the Affordable Care Act.
+With this app you can compare prices year over year
+
+- By County
+- By Metal Level
+- By Age Bracket
+
+This is a GREAT place to look at trending and observe medical inflation
+as it pertains to Individual Health Insurance
+
+========================================================
+The CMS Public Use File publishes the rates of each plan offered by
+health insurance companies and labels them by County
+
+You will see a Table you can sort to your needs.
+- 
+
+```{r}
+
+Florida<- read.csv("mydata/20141516v3.csv")
+data.frame(Florida)
+```
+
+Example Plot of Health Insurance
+========================================================
+
+```{r, echo=FALSE}
+library(ggplot2)
+qplot(Age_40, data = Florida, fill = Year, col = "blue")
+```
+
+
+
+====
+
+- The shinyapp can be found at:
+https://patg.shinyapps.io/ACAproject/
+
+- Data is from the Public Use Files of Filed Rates at
+https://www.cms.gov/cciio/resources/data-resources/marketplace-puf.html
+
+![ ](Screen.png)
+
